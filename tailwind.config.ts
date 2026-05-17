@@ -1,0 +1,37 @@
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        cream: "#F5F1E8",
+        creamDeep: "#EFE9D8",
+        oxblood: "#5D2424",
+        oxbloodDark: "#4A1C1C",
+        charcoal: "#2A2A2A",
+        warmGray: "#D9D1BE",
+        warmGrayDark: "#B8AE94",
+        ink: "#1A1A1A",
+        muted: "#6B6557",
+      },
+      fontFamily: {
+        serif: ['Georgia', '"Times New Roman"', "serif"],
+        mono: ['"JetBrains Mono"', '"Courier New"', "Courier", "monospace"],
+      },
+      borderRadius: {
+        none: "0",
+        sm: "2px",
+        DEFAULT: "3px",
+        md: "4px",
+      },
+      maxWidth: {
+        prose: "68ch",
+        wide: "1280px",
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;
