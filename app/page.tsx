@@ -90,7 +90,7 @@ export default function HomePage() {
               Most AI talent platforms are job boards. We run a small list of people we know.
               Every candidate on Clief Notes is a Skool Premium or VIP member. We read their
               portfolio. We call their references. Every company signs terms that protect both
-              sides of the introduction. When something goes wrong, you call Matt or Jake.
+              sides of the introduction.
             </p>
             <div className="rule-thick mt-10" />
             <p className="mono mt-4 text-[13px] uppercase tracking-[0.18em] text-muted">
