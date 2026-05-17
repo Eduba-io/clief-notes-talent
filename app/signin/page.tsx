@@ -26,7 +26,7 @@ export default function SigninPage() {
         <div>
           <div className="eyebrow mb-3">Sign in</div>
           <h1 className="font-serif text-[44px] leading-tight">Welcome back.</h1>
-          <p className="mt-4 max-w-prose text-charcoal/85">
+          <p className="mt-4 max-w-prose text-charcoal">
             Sign in to your candidate, company, or admin account. New here?{" "}
             <a href="/candidate/signup" className="text-oxblood underline-offset-4 hover:underline">
               Apply as a candidate

@@ -154,7 +154,7 @@ function Table({
           {rows.map((r) => (
             <tr key={r.id} className="border-b border-warmGray last:border-b-0 hover:bg-cream-deep/30">
               {r.cells.map((c, i) => (
-                <td key={i} className="px-4 py-3 align-top text-charcoal/90">
+                <td key={i} className="px-4 py-3 align-top text-charcoal">
                   {i === 0 ? (
                     <Link href={r.href} className="font-serif text-[15px] text-charcoal hover:text-oxblood">
                       {c}

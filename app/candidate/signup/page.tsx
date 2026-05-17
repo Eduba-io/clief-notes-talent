@@ -15,13 +15,13 @@ export default function CandidateSignupPage() {
           <h1 className="font-serif text-[44px] leading-tight">
             We&rsquo;ll verify you, then put you in front of the right companies.
           </h1>
-          <p className="mt-6 max-w-prose text-charcoal/85">
+          <p className="mt-6 max-w-prose text-charcoal">
             Every candidate is verified as a Clief Notes Premium or VIP member before their
             profile goes live. Approval typically takes 2–3 business days. Once you&rsquo;re in,
             introductions come to you — you don&rsquo;t cold-apply.
           </p>
           <div className="rule" />
-          <ul className="space-y-3 text-[15px] text-charcoal/90">
+          <ul className="space-y-3 text-[15px] text-charcoal">
             <li>· <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">Step 1</span> &nbsp;Create your account</li>
             <li>· <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">Step 2</span> &nbsp;Five-step intake to build your profile</li>
             <li>· <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">Step 3</span> &nbsp;Eduba reviews and approves</li>

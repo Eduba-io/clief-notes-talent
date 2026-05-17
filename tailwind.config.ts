@@ -11,9 +11,9 @@ const config: Config = {
         oxbloodDark: "#4A1C1C",
         charcoal: "#2A2A2A",
         warmGray: "#D9D1BE",
-        warmGrayDark: "#B8AE94",
+        warmGrayDark: "#7A725E",
         ink: "#1A1A1A",
-        muted: "#6B6557",
+        muted: "#3F3B30",
       },
       fontFamily: {
         serif: ['Georgia', '"Times New Roman"', "serif"],

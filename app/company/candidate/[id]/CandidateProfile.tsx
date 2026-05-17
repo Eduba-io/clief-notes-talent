@@ -78,7 +78,7 @@ export default function CandidateProfile({ id, mode }: Props) {
                 <h1 className="font-serif text-[40px] leading-tight">
                   {c.firstName} {c.lastInitial}
                 </h1>
-                <p className="mt-2 max-w-prose font-serif text-[18px] text-charcoal/90">
+                <p className="mt-2 max-w-prose font-serif text-[18px] text-charcoal">
                   {c.headline}
                 </p>
                 <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2">
@@ -114,7 +114,7 @@ export default function CandidateProfile({ id, mode }: Props) {
             {/* Bio */}
             <section className="border-b border-warmGray py-8">
               <div className="label mb-3">Bio</div>
-              <p className="max-w-prose font-serif text-[17px] leading-relaxed text-charcoal/90">
+              <p className="max-w-prose font-serif text-[17px] leading-relaxed text-charcoal">
                 {c.bio}
               </p>
               {c.currentEmployer && (
@@ -140,7 +140,7 @@ export default function CandidateProfile({ id, mode }: Props) {
                     <div key={p.id} className="card flex flex-col p-5">
                       <div className="mono mb-2 text-[10px] uppercase tracking-[0.18em] text-oxblood">{p.kind}</div>
                       <div className="font-serif text-[17px] leading-snug">{p.title}</div>
-                      <p className="mt-2 flex-1 text-sm text-charcoal/85">{p.description}</p>
+                      <p className="mt-2 flex-1 text-sm text-charcoal">{p.description}</p>
                       <button
                         type="button"
                         onClick={() => setPortfolioItem(p.title)}
@@ -176,7 +176,7 @@ export default function CandidateProfile({ id, mode }: Props) {
                 <ul className="space-y-5">
                   {c.references.map((r, i) => (
                     <li key={i} className="border-l-2 border-oxblood pl-5">
-                      <p className="font-serif text-[17px] italic leading-snug text-charcoal/90">
+                      <p className="font-serif text-[17px] italic leading-snug text-charcoal">
                         &ldquo;{r.quote}&rdquo;
                       </p>
                       <div className="mono mt-3 text-[11px] uppercase tracking-[0.14em] text-muted">
@@ -236,7 +236,7 @@ export default function CandidateProfile({ id, mode }: Props) {
           </>
         }
       >
-        <p className="mb-4 text-[15px] text-charcoal/85">
+        <p className="mb-4 text-[15px] text-charcoal">
           Tell us why this candidate is a fit for your role. Eduba reviews every request — if
           there&rsquo;s a likely match, we&rsquo;ll connect you both within 24 hours.
         </p>
@@ -307,7 +307,7 @@ function InternalNotes({ notes }: { notes: { id: string; author: string; dateISO
               <div className="mono text-[10px] uppercase tracking-[0.18em] text-muted">
                 <span className="text-charcoal">{n.author}</span> · {n.dateISO}
               </div>
-              <p className="mt-1 text-[14px] text-charcoal/90">{n.body}</p>
+              <p className="mt-1 text-[14px] text-charcoal">{n.body}</p>
             </li>
           ))}
         </ul>
@@ -330,7 +330,7 @@ function ActivityLog() {
       <div className="label mb-3">Activity log</div>
       <ul className="space-y-2">
         {events.map((e, i) => (
-          <li key={i} className="mono flex justify-between text-[11px] uppercase tracking-[0.1em] text-charcoal/85">
+          <li key={i} className="mono flex justify-between text-[11px] uppercase tracking-[0.1em] text-charcoal">
             <span>{e.text}</span><span className="text-muted">{e.iso}</span>
           </li>
         ))}

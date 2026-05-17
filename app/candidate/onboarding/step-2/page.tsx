@@ -15,7 +15,7 @@ export default function Step2() {
         <Stepper current={2} total={5} labels={labels} />
         <div className="eyebrow mb-3">Your story</div>
         <h1 className="font-serif text-[36px] leading-tight">A headline and a bio.</h1>
-        <p className="mt-3 max-w-prose text-charcoal/85">
+        <p className="mt-3 max-w-prose text-charcoal">
           The headline is what companies see first. Be specific. &ldquo;Builds AI agents for legal
           teams&rdquo; lands better than &ldquo;AI engineer.&rdquo;
         </p>

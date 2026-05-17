@@ -15,7 +15,7 @@ export default function CompanySignupPage() {
           <h1 className="font-serif text-[44px] leading-tight">
             Tell us what you&rsquo;re building. We&rsquo;ll introduce you to the right people.
           </h1>
-          <p className="mt-6 max-w-prose text-charcoal/85">
+          <p className="mt-6 max-w-prose text-charcoal">
             We&rsquo;re a small, picky platform. Every company on Clief Notes Talent has been
             verified by Eduba, signed our terms (including the no-circumvention clause), and is
             paying flat placement fees — never per click, never per applicant.
@@ -56,7 +56,7 @@ export default function CompanySignupPage() {
           <div className="mb-5"><label className="label">Why hire from Clief Notes?</label>
             <textarea className="textarea min-h-[100px]" placeholder="What are you trying to build? What's the hiring gap?" required />
           </div>
-          <label className="mb-5 flex cursor-pointer items-start gap-3 text-[13px] text-charcoal/90">
+          <label className="mb-5 flex cursor-pointer items-start gap-3 text-[13px] text-charcoal">
             <input type="checkbox" required className="mt-1 accent-oxblood" />
             <span>I agree to the <a className="text-oxblood underline-offset-4 hover:underline" href="/terms">Terms of Service</a> including the no-circumvention clause and platform-as-intermediary terms.</span>
           </label>

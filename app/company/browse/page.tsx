@@ -45,7 +45,7 @@ export default function BrowsePage() {
           <div>
             <div className="eyebrow mb-2">The Directory · Issue 001</div>
             <h1 className="font-serif text-[44px] leading-tight">Browse vetted AI builders.</h1>
-            <p className="mt-2 max-w-prose text-charcoal/85">
+            <p className="mt-2 max-w-prose text-charcoal">
               Twelve people, all of whom have shipped real AI work. Every profile has been read,
               every reference has been called, every Skool membership has been verified.
             </p>

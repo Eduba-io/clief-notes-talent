@@ -40,7 +40,7 @@ export default function CandidateCard({ candidate, href, variant = "default" }: 
         )}
       </header>
 
-      <p className="font-serif text-[15px] leading-snug text-charcoal/90">
+      <p className="font-serif text-[15px] leading-snug text-charcoal">
         {candidate.headline}
       </p>
 

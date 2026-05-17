@@ -15,7 +15,7 @@ export default function HomePage() {
             <h1 className="font-serif text-[64px] leading-[1.05] tracking-tight text-charcoal md:text-[84px]">
               Hire the builders who&rsquo;ve actually built things.
             </h1>
-            <p className="mt-8 max-w-prose text-[18px] leading-relaxed text-charcoal/85">
+            <p className="mt-8 max-w-prose text-[18px] leading-relaxed text-charcoal">
               Clief Notes Talent is a private network of operators, engineers, and strategists who
               have shipped real AI work — vetted by Eduba, drawn from the Clief Notes Lyceum and
               broader Premium community, and introduced to companies who pay for outcomes rather
@@ -35,7 +35,7 @@ export default function HomePage() {
             <div className="card sticky top-8 p-6">
               <div className="eyebrow mb-3">Issue 001 · May 2026</div>
               <h3 className="font-serif text-[22px] leading-snug">The Faces of Interface</h3>
-              <p className="mt-3 text-sm text-charcoal/85">
+              <p className="mt-3 text-sm text-charcoal">
                 A reading on the builders behind the AI systems that companies are quietly relying
                 on this year — and how Eduba places them.
               </p>
@@ -86,7 +86,7 @@ export default function HomePage() {
             <h2 className="font-serif text-[36px] leading-tight">What makes Clief Notes different.</h2>
           </div>
           <div className="md:col-span-8">
-            <p className="text-[18px] leading-relaxed text-charcoal/90">
+            <p className="text-[18px] leading-relaxed text-charcoal">
               Most AI talent platforms are job boards with a coat of paint. We are not a job board.
               Every candidate has been through the Clief Notes vetting funnel — Skool Premium or
               VIP, a portfolio that we&rsquo;ve actually read, references that we&rsquo;ve actually
@@ -133,7 +133,7 @@ function Column({ kicker, title, body }: { kicker: string; title: string; body: 
     <div className="border-t border-charcoal pt-5">
       <div className="mono mb-3 text-[10px] uppercase tracking-[0.22em] text-oxblood">{kicker}</div>
       <h3 className="font-serif text-[22px] leading-snug">{title}</h3>
-      <p className="mt-3 text-[15px] leading-relaxed text-charcoal/85">{body}</p>
+      <p className="mt-3 text-[15px] leading-relaxed text-charcoal">{body}</p>
     </div>
   );
 }

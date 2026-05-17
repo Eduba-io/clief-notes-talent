@@ -15,7 +15,7 @@ export default function Step5() {
         <Stepper current={5} total={5} labels={labels} />
         <div className="eyebrow mb-3">Portfolio</div>
         <h1 className="font-serif text-[36px] leading-tight">Show us the work.</h1>
-        <p className="mt-3 max-w-prose text-charcoal/85">
+        <p className="mt-3 max-w-prose text-charcoal">
           Up to ten items — case studies, demos, code, writing. The strongest profiles have one
           deep case study plus two or three supporting pieces. A short video intro helps too.
         </p>

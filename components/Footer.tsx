@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container-page grid grid-cols-1 gap-10 py-12 md:grid-cols-3">
         <div>
           <div className="mono mb-3 text-[11px] uppercase tracking-[0.22em] text-muted">Eduba</div>
-          <p className="text-sm text-charcoal/85">
+          <p className="text-sm text-charcoal">
             Veteran-owned AI consulting and training. Build. Teach. Govern.
           </p>
           <p className="mt-3 text-sm text-muted">contact@eduba.io</p>

@@ -25,7 +25,7 @@ function Inner() {
         <div className="card mx-auto max-w-2xl p-10 text-center">
           <div className="eyebrow mb-3">Account under review</div>
           <h1 className="font-serif text-[32px] leading-tight">Thanks. We&rsquo;ll be in touch within 1–2 business days.</h1>
-          <p className="mt-4 text-charcoal/85">
+          <p className="mt-4 text-charcoal">
             A real human at Eduba reviews every company application. We&rsquo;ll email{" "}
             <span className="mono text-[13px]">you@your-company.com</span> when your account is
             approved.

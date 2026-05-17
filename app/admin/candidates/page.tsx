@@ -69,8 +69,8 @@ export default function AdminCandidatesPage() {
                     {c.firstName} {c.lastInitial}
                   </Link>
                 </td>
-                <td className="px-4 py-3 text-charcoal/85">{c.headline}</td>
-                <td className="mono px-4 py-3 text-[12px] uppercase tracking-[0.1em] text-charcoal/85">{c.cohort}</td>
+                <td className="px-4 py-3 text-charcoal">{c.headline}</td>
+                <td className="mono px-4 py-3 text-[12px] uppercase tracking-[0.1em] text-charcoal">{c.cohort}</td>
                 <td className="mono px-4 py-3 text-[11px] uppercase text-muted">
                   {c.skills.slice(0, 3).join(" · ")}
                 </td>

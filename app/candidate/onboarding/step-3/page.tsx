@@ -23,7 +23,7 @@ export default function Step3() {
         <Stepper current={3} total={5} labels={labels} />
         <div className="eyebrow mb-3">Your craft</div>
         <h1 className="font-serif text-[36px] leading-tight">What do you actually do?</h1>
-        <p className="mt-3 max-w-prose text-charcoal/85">
+        <p className="mt-3 max-w-prose text-charcoal">
           Tell us the work and the tools. We use this to match you to roles companies post.
         </p>
 

@@ -35,7 +35,7 @@ function Check({
   onChange,
 }: { label: string; checked: boolean; onChange: () => void }) {
   return (
-    <label className="mono flex cursor-pointer items-center gap-2 text-[12px] uppercase tracking-[0.06em] text-charcoal/90">
+    <label className="mono flex cursor-pointer items-center gap-2 text-[12px] uppercase tracking-[0.06em] text-charcoal">
       <input
         type="checkbox"
         checked={checked}

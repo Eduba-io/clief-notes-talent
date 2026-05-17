@@ -48,9 +48,9 @@ export default function AdminPlacementsPage() {
                 onClick={() => setOpen(p)}
               >
                 <td className="px-4 py-3 font-serif text-[15px]">{p.candidateName}</td>
-                <td className="px-4 py-3 text-charcoal/90">{p.companyName}</td>
-                <td className="px-4 py-3 text-charcoal/85">{p.role}</td>
-                <td className="px-4 py-3 text-charcoal/90">${p.feeAmount.toLocaleString()}</td>
+                <td className="px-4 py-3 text-charcoal">{p.companyName}</td>
+                <td className="px-4 py-3 text-charcoal">{p.role}</td>
+                <td className="px-4 py-3 text-charcoal">${p.feeAmount.toLocaleString()}</td>
                 <td className="mono px-4 py-3 text-[11px] uppercase tracking-[0.14em]"
                     style={{ color: statusColor[p.status] }}>
                   {p.status}

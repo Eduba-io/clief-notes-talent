@@ -70,7 +70,7 @@ function Inner() {
               <li key={r.id} className="card flex items-center justify-between p-5">
                 <div className="min-w-0">
                   <div className="font-serif text-[17px]">{r.company}</div>
-                  <p className="mt-1 text-sm text-charcoal/80">{r.role}</p>
+                  <p className="mt-1 text-sm text-charcoal">{r.role}</p>
                   <div className="mt-2 flex flex-wrap gap-1.5">
                     {r.tags.map((t) => <SkillTag key={t}>{t}</SkillTag>)}
                   </div>
@@ -95,7 +95,7 @@ function Inner() {
             </h2>
             <div className="card p-5">
               <div className="font-serif text-[17px]">In discussion with Series B fintech</div>
-              <p className="mt-2 text-sm text-charcoal/80">
+              <p className="mt-2 text-sm text-charcoal">
                 Contract-to-hire · 6-month engagement &middot; Eduba is coordinating second-round
                 interviews this week.
               </p>
@@ -112,7 +112,7 @@ function Inner() {
             <div className="card flex h-full items-center justify-center p-8 text-center">
               <div>
                 <div className="mono text-[11px] uppercase tracking-[0.18em] text-muted">Nothing yet</div>
-                <p className="mt-2 font-serif text-[15px] text-charcoal/85">
+                <p className="mt-2 font-serif text-[15px] text-charcoal">
                   Your first placement will appear here. The intro process usually takes 2–4 weeks
                   end-to-end.
                 </p>

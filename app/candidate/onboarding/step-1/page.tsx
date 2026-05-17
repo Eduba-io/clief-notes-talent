@@ -15,7 +15,7 @@ export default function Step1() {
         <Stepper current={1} total={5} labels={labels} />
         <div className="eyebrow mb-3">Basics</div>
         <h1 className="font-serif text-[36px] leading-tight">Tell us who you are.</h1>
-        <p className="mt-3 max-w-prose text-charcoal/85">Just the cover sheet — we&rsquo;ll get to the work in a moment.</p>
+        <p className="mt-3 max-w-prose text-charcoal">Just the cover sheet — we&rsquo;ll get to the work in a moment.</p>
 
         <form
           onSubmit={(e) => { e.preventDefault(); router.push("/candidate/onboarding/step-2"); }}

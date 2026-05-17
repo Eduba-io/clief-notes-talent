@@ -19,7 +19,7 @@ export default function Step4() {
         <Stepper current={4} total={5} labels={labels} />
         <div className="eyebrow mb-3">Availability</div>
         <h1 className="font-serif text-[36px] leading-tight">What are you open to?</h1>
-        <p className="mt-3 max-w-prose text-charcoal/85">
+        <p className="mt-3 max-w-prose text-charcoal">
           Only companies that match your stated availability will see you. You can change this anytime.
         </p>
 

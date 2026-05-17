@@ -28,7 +28,7 @@ export default function PostJobPage() {
       <main className="container-page max-w-4xl py-12">
         <div className="eyebrow mb-3">Post a role</div>
         <h1 className="font-serif text-[40px] leading-tight">Tell us what you&rsquo;re hiring for.</h1>
-        <p className="mt-3 max-w-prose text-charcoal/85">
+        <p className="mt-3 max-w-prose text-charcoal">
           Eduba reads every job and surfaces the two to four candidates most likely to be a fit.
           Be specific — the more pointed the role, the better the match.
         </p>

@@ -27,7 +27,7 @@ export default function Sidebar({ title, items, footer }: Props) {
               className={`block border-l-2 px-3 py-1.5 font-serif text-[15px] ${
                 active
                   ? "border-oxblood bg-cream-deep text-charcoal"
-                  : "border-transparent text-charcoal/85 hover:border-warmGray hover:text-charcoal"
+                  : "border-transparent text-charcoal hover:border-warmGray hover:text-charcoal"
               }`}
             >
               {it.label}
