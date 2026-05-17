@@ -16,8 +16,9 @@ const config: Config = {
         muted: "#2A2A2A",
       },
       fontFamily: {
-        serif: ['Georgia', '"Times New Roman"', "serif"],
-        mono: ['"JetBrains Mono"', '"Courier New"', "Courier", "monospace"],
+        sans: ['"IBM Plex Sans"', "system-ui", "-apple-system", "Helvetica", "Arial", "sans-serif"],
+        serif: ['"IBM Plex Serif"', "Georgia", '"Times New Roman"', "serif"],
+        mono: ['"IBM Plex Mono"', '"JetBrains Mono"', '"Courier New"', "Courier", "monospace"],
       },
       borderRadius: {
         none: "0",
