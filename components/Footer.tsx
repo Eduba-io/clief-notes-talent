@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="border-t border-warmGray">
         <div className="container-page mono flex items-center justify-between py-4 text-[12px] uppercase tracking-[0.22em] text-muted">
           <span>© 2026 Eduba LLC</span>
-          <span>Clief Notes Talent · v0.1 · demo</span>
+          <span>Ledger · v0.1 · demo</span>
         </div>
       </div>
     </footer>

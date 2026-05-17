@@ -77,8 +77,8 @@ export default function PostJobPage() {
             <textarea className="textarea min-h-[200px]" required />
           </label>
 
-          <label className="block"><span className="label">Why specifically from Clief Notes?</span>
-            <textarea className="textarea min-h-[120px]" required placeholder="What about this role makes Clief Notes the right place to source it? (We read this.)" />
+          <label className="block"><span className="label">Why specifically from Ledger?</span>
+            <textarea className="textarea min-h-[120px]" required placeholder="What about this role makes Ledger the right place to source it? (We read this.)" />
           </label>
 
           <label className="block"><span className="label">Custom application question (optional)</span>

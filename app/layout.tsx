@@ -4,9 +4,9 @@ import DemoWatermark from "@/components/DemoWatermark";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Clief Notes Talent — by Eduba",
+  title: "Ledger, by Eduba",
   description:
-    "A vetted talent network of AI builders, by Eduba. Hire the builders who've actually built things.",
+    "A vetted network of AI builders, kept by Eduba. Hire the builders who've actually built things.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

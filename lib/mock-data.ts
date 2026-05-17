@@ -1,4 +1,4 @@
-// Mock data for the Clief Notes Talent demo.
+// Mock data for the Ledger demo.
 // All values here are intentionally hardcoded — there is no backend.
 
 export type Availability = "actively-looking" | "open-to-offers" | "not-looking";

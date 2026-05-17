@@ -16,10 +16,10 @@ export default function HomePage() {
               Hire the builders who&rsquo;ve actually built things.
             </h1>
             <p className="mt-8 max-w-prose text-[18px] leading-relaxed text-charcoal">
-              Clief Notes Talent is a private network of operators, engineers, and strategists who
-              have shipped real AI work — vetted by Eduba, drawn from the Clief Notes Lyceum and
-              broader Premium community, and introduced to companies who pay for outcomes rather
-              than promises.
+              Ledger is a private network of operators, engineers, and strategists who have
+              shipped real AI work. Eduba vets every builder, drawing from the Clief Notes Lyceum
+              and the broader Premium community, and introduces them to companies who pay for
+              outcomes.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Link href="/company/signup" className="btn btn-primary">I&rsquo;m hiring →</Link>
@@ -83,12 +83,12 @@ export default function HomePage() {
         <div className="container-page grid grid-cols-1 gap-12 py-20 md:grid-cols-12">
           <div className="md:col-span-4">
             <div className="eyebrow mb-3">The difference</div>
-            <h2 className="font-serif text-[36px] leading-tight">What makes Clief Notes different.</h2>
+            <h2 className="font-serif text-[36px] leading-tight">What makes Ledger different.</h2>
           </div>
           <div className="md:col-span-8">
             <p className="text-[18px] leading-relaxed text-charcoal">
               Most AI talent platforms are job boards. We run a small list of people we know.
-              Every candidate on Clief Notes is a Skool Premium or VIP member. We read their
+              Every candidate on Ledger is a Clief Notes Premium or VIP member. We read their
               portfolio. We call their references. Every company signs terms that protect both
               sides of the introduction.
             </p>

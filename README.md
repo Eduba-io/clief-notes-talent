@@ -1,6 +1,6 @@
-# Clief Notes Talent — Mockup
+# Ledger — Mockup
 
-A clickable mockup of the Clief Notes Talent platform, built by Eduba.
+A clickable mockup of Ledger, a vetted AI builder network built by Eduba.
 **This is a demo. There is no backend, no real auth, no real data.**
 
 Live: <https://talent.eduba.io>
