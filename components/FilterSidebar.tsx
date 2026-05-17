@@ -23,7 +23,7 @@ function toggleIn<T>(arr: T[], value: T): T[] {
 function Group({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <div className="border-b border-warmGray pb-5">
-      <div className="mono mb-3 text-[10px] uppercase tracking-[0.22em] text-muted">{label}</div>
+      <div className="mono mb-3 text-[12px] uppercase tracking-[0.22em] text-muted">{label}</div>
       <div className="space-y-1.5">{children}</div>
     </div>
   );
@@ -50,7 +50,7 @@ function Check({
 export default function FilterSidebar({ filters, setFilters }: Props) {
   return (
     <aside className="w-60 shrink-0 space-y-6 border-r border-warmGray pr-6">
-      <div className="mono text-[11px] uppercase tracking-[0.22em] text-muted">Filter</div>
+      <div className="mono text-[13px] uppercase tracking-[0.22em] text-muted">Filter</div>
 
       <Group label="Type of work">
         {ALL_TYPES_OF_WORK.map((t) => (
@@ -97,7 +97,7 @@ export default function FilterSidebar({ filters, setFilters }: Props) {
           onChange={(e) => setFilters({ ...filters, salaryMin: parseInt(e.target.value, 10) })}
           className="w-full accent-oxblood"
         />
-        <div className="mono text-[11px] tracking-[0.08em] text-muted">
+        <div className="mono text-[13px] tracking-[0.08em] text-muted">
           ≥ ${(filters.salaryMin / 1000).toFixed(0)}k
         </div>
       </Group>

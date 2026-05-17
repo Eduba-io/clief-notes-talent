@@ -27,7 +27,7 @@ export default function Step2() {
           <label className="block">
             <span className="label">Headline (one line)</span>
             <input className="input" maxLength={120} placeholder="Builds AI agents for legal teams" />
-            <span className="mono mt-1 block text-[10px] uppercase tracking-[0.14em] text-muted">
+            <span className="mono mt-1 block text-[12px] uppercase tracking-[0.14em] text-muted">
               Max 120 characters
             </span>
           </label>

@@ -54,7 +54,7 @@ export default function CandidateProfile({ id, mode }: Props) {
       <EdubaHeader rightSlot="signin" />
       <main className="container-page py-10">
         {/* Breadcrumb */}
-        <div className="mono mb-6 text-[11px] uppercase tracking-[0.18em] text-muted">
+        <div className="mono mb-6 text-[13px] uppercase tracking-[0.18em] text-muted">
           <Link href={mode === "admin" ? "/admin/candidates" : "/company/browse"} className="hover:text-oxblood">
             ← {mode === "admin" ? "Candidates" : "Directory"}
           </Link>
@@ -72,7 +72,7 @@ export default function CandidateProfile({ id, mode }: Props) {
                 className="h-24 w-24 rounded-full border border-warmGray object-cover grayscale"
               />
               <div className="flex-1">
-                <div className="mono text-[11px] uppercase tracking-[0.18em] text-muted">
+                <div className="mono text-[13px] uppercase tracking-[0.18em] text-muted">
                   {c.city}, {c.country}
                 </div>
                 <h1 className="font-serif text-[40px] leading-tight">
@@ -83,10 +83,10 @@ export default function CandidateProfile({ id, mode }: Props) {
                 </p>
                 <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2">
                   <StatusBadge availability={c.availability} />
-                  <span className="mono text-[11px] uppercase tracking-[0.12em] text-muted">
+                  <span className="mono text-[13px] uppercase tracking-[0.12em] text-muted">
                     {remoteLabel(c.remote)}
                   </span>
-                  <span className="mono text-[11px] uppercase tracking-[0.12em] text-muted">
+                  <span className="mono text-[13px] uppercase tracking-[0.12em] text-muted">
                     Cohort · <span className="text-charcoal">{c.cohort}</span>
                   </span>
                 </div>
@@ -118,7 +118,7 @@ export default function CandidateProfile({ id, mode }: Props) {
                 {c.bio}
               </p>
               {c.currentEmployer && (
-                <p className="mono mt-4 text-[11px] uppercase tracking-[0.14em] text-muted">
+                <p className="mono mt-4 text-[13px] uppercase tracking-[0.14em] text-muted">
                   Currently · <span className="text-charcoal">{c.currentEmployer}</span>
                 </p>
               )}
@@ -128,7 +128,7 @@ export default function CandidateProfile({ id, mode }: Props) {
             <section className="border-b border-warmGray py-8">
               <header className="mb-4 flex items-end justify-between">
                 <div className="label">Portfolio</div>
-                <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">
+                <span className="mono text-[13px] uppercase tracking-[0.14em] text-muted">
                   {c.portfolio.length} items
                 </span>
               </header>
@@ -138,13 +138,13 @@ export default function CandidateProfile({ id, mode }: Props) {
                 <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
                   {c.portfolio.map((p) => (
                     <div key={p.id} className="card flex flex-col p-5">
-                      <div className="mono mb-2 text-[10px] uppercase tracking-[0.18em] text-oxblood">{p.kind}</div>
+                      <div className="mono mb-2 text-[12px] uppercase tracking-[0.18em] text-oxblood">{p.kind}</div>
                       <div className="font-serif text-[17px] leading-snug">{p.title}</div>
                       <p className="mt-2 flex-1 text-sm text-charcoal">{p.description}</p>
                       <button
                         type="button"
                         onClick={() => setPortfolioItem(p.title)}
-                        className="mono mt-4 self-start text-[11px] uppercase tracking-[0.18em] text-oxblood hover:text-oxbloodDark"
+                        className="mono mt-4 self-start text-[13px] uppercase tracking-[0.18em] text-oxblood hover:text-oxbloodDark"
                       >
                         View →
                       </button>
@@ -179,7 +179,7 @@ export default function CandidateProfile({ id, mode }: Props) {
                       <p className="font-serif text-[17px] italic leading-snug text-charcoal">
                         &ldquo;{r.quote}&rdquo;
                       </p>
-                      <div className="mono mt-3 text-[11px] uppercase tracking-[0.14em] text-muted">
+                      <div className="mono mt-3 text-[13px] uppercase tracking-[0.14em] text-muted">
                         — <span className="text-charcoal">{r.name}</span> · {r.title} ·{" "}
                         <span className="text-oxblood">Verified by Eduba</span>
                       </div>
@@ -201,7 +201,7 @@ export default function CandidateProfile({ id, mode }: Props) {
                   <button onClick={() => setIntroOpen(true)} className="btn btn-primary mt-5 w-full">
                     Request Intro →
                   </button>
-                  <p className="mono mt-3 text-center text-[10px] uppercase tracking-[0.18em] text-muted">
+                  <p className="mono mt-3 text-center text-[12px] uppercase tracking-[0.18em] text-muted">
                     Eduba reviews and connects within 24 hours
                   </p>
                 </div>
@@ -255,7 +255,7 @@ export default function CandidateProfile({ id, mode }: Props) {
         footer={<button onClick={() => setPortfolioItem(null)} className="btn btn-ghost">Close</button>}
       >
         <div className="flex aspect-video w-full items-center justify-center border border-warmGray bg-cream-deep">
-          <span className="mono text-[11px] uppercase tracking-[0.18em] text-muted">
+          <span className="mono text-[13px] uppercase tracking-[0.18em] text-muted">
             Preview placeholder — production would render this asset
           </span>
         </div>
@@ -269,7 +269,7 @@ export default function CandidateProfile({ id, mode }: Props) {
 function Row({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-baseline justify-between border-b border-warmGray py-2">
-      <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">{label}</span>
+      <span className="mono text-[13px] uppercase tracking-[0.14em] text-muted">{label}</span>
       <span className="font-serif text-[15px] text-charcoal">{value}</span>
     </div>
   );
@@ -284,7 +284,7 @@ function Toggle({ label, value, onChange }: { label: string; value: boolean; onC
         role="switch"
         aria-checked={value}
         onClick={() => onChange(!value)}
-        className={`mono inline-flex items-center border px-2 py-0.5 text-[10px] uppercase tracking-[0.18em] ${
+        className={`mono inline-flex items-center border px-2 py-0.5 text-[12px] uppercase tracking-[0.18em] ${
           value ? "border-oxblood bg-oxblood text-cream" : "border-warmGray text-muted"
         }`}
       >
@@ -304,7 +304,7 @@ function InternalNotes({ notes }: { notes: { id: string; author: string; dateISO
         <ul className="space-y-4">
           {notes.map((n) => (
             <li key={n.id} className="border-l-2 border-warmGray pl-3">
-              <div className="mono text-[10px] uppercase tracking-[0.18em] text-muted">
+              <div className="mono text-[12px] uppercase tracking-[0.18em] text-muted">
                 <span className="text-charcoal">{n.author}</span> · {n.dateISO}
               </div>
               <p className="mt-1 text-[14px] text-charcoal">{n.body}</p>
@@ -313,7 +313,7 @@ function InternalNotes({ notes }: { notes: { id: string; author: string; dateISO
         </ul>
       )}
       <textarea className="textarea mt-4 min-h-[80px]" placeholder="Add a note..." />
-      <button className="btn btn-ghost mt-2 w-full text-[11px]">Add note</button>
+      <button className="btn btn-ghost mt-2 w-full text-[13px]">Add note</button>
     </div>
   );
 }
@@ -330,7 +330,7 @@ function ActivityLog() {
       <div className="label mb-3">Activity log</div>
       <ul className="space-y-2">
         {events.map((e, i) => (
-          <li key={i} className="mono flex justify-between text-[11px] uppercase tracking-[0.1em] text-charcoal">
+          <li key={i} className="mono flex justify-between text-[13px] uppercase tracking-[0.1em] text-charcoal">
             <span>{e.text}</span><span className="text-muted">{e.iso}</span>
           </li>
         ))}

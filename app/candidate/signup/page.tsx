@@ -22,10 +22,10 @@ export default function CandidateSignupPage() {
           </p>
           <div className="rule" />
           <ul className="space-y-3 text-[15px] text-charcoal">
-            <li>· <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">Step 1</span> &nbsp;Create your account</li>
-            <li>· <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">Step 2</span> &nbsp;Five-step intake to build your profile</li>
-            <li>· <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">Step 3</span> &nbsp;Eduba reviews and approves</li>
-            <li>· <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">Step 4</span> &nbsp;Companies see you. Intros begin.</li>
+            <li>· <span className="mono text-[13px] uppercase tracking-[0.14em] text-muted">Step 1</span> &nbsp;Create your account</li>
+            <li>· <span className="mono text-[13px] uppercase tracking-[0.14em] text-muted">Step 2</span> &nbsp;Five-step intake to build your profile</li>
+            <li>· <span className="mono text-[13px] uppercase tracking-[0.14em] text-muted">Step 3</span> &nbsp;Eduba reviews and approves</li>
+            <li>· <span className="mono text-[13px] uppercase tracking-[0.14em] text-muted">Step 4</span> &nbsp;Companies see you. Intros begin.</li>
           </ul>
         </div>
         <form

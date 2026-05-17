@@ -64,7 +64,7 @@ export default function BrowsePage() {
         <section className="mb-10">
           <header className="mb-3 flex items-end justify-between border-b border-charcoal pb-2">
             <h2 className="font-serif text-[20px]">Featured this issue</h2>
-            <span className="mono text-[10px] uppercase tracking-[0.18em] text-muted">{featured.length} candidates</span>
+            <span className="mono text-[12px] uppercase tracking-[0.18em] text-muted">{featured.length} candidates</span>
           </header>
           <div className="flex gap-4 overflow-x-auto pb-2 [&>*]:flex-shrink-0 [&>*]:basis-[320px]">
             {featured.map((c) => (
@@ -76,12 +76,12 @@ export default function BrowsePage() {
         <div className="flex gap-8">
           <FilterSidebar filters={filters} setFilters={setFilters} />
           <div className="flex-1">
-            <div className="mono mb-4 text-[11px] uppercase tracking-[0.18em] text-muted">
+            <div className="mono mb-4 text-[13px] uppercase tracking-[0.18em] text-muted">
               Showing {visible.length} of {all.length}
             </div>
             {visible.length === 0 ? (
               <div className="card p-10 text-center">
-                <div className="mono text-[11px] uppercase tracking-[0.18em] text-muted">No matches</div>
+                <div className="mono text-[13px] uppercase tracking-[0.18em] text-muted">No matches</div>
                 <p className="mt-2 font-serif text-[18px]">
                   No candidates match those filters yet.
                 </p>

@@ -10,7 +10,7 @@ export default function StatusBadge({ availability, label, dotColor }: Props) {
   const text = label ?? (availability ? availabilityLabel(availability) : "Unknown");
   const color = dotColor ?? (availability ? availabilityDot(availability) : "#8a8275");
   return (
-    <span className="mono inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.12em] text-charcoal">
+    <span className="mono inline-flex items-center gap-2 text-[13px] uppercase tracking-[0.12em] text-charcoal">
       <span
         aria-hidden
         className="inline-block h-[8px] w-[8px] rounded-full"

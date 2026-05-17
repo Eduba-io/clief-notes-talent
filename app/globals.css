@@ -10,7 +10,7 @@
     --oxblood-dark: #4a1c1c;
     --charcoal: #2a2a2a;
     --warm-gray: #d9d1be;
-    --muted: #3f3b30;
+    --muted: #2a2a2a;
   }
 
   html,
@@ -20,8 +20,7 @@
     font-family: Georgia, "Times New Roman", serif;
     font-weight: 700;
     line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: subpixel-antialiased;
   }
 
   /* Subtle paper grain to evoke print */
@@ -75,13 +74,14 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.75rem 1.5rem;
+    padding: 0.8125rem 1.625rem;
     border: 1px solid var(--charcoal);
     background: transparent;
     color: var(--charcoal);
     font-family: "JetBrains Mono", "Courier New", monospace;
-    font-size: 0.8125rem;
-    letter-spacing: 0.08em;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     cursor: pointer;
     transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
@@ -110,7 +110,8 @@
     border: 1px solid var(--warm-gray);
     border-radius: 2px;
     font-family: Georgia, serif;
-    font-size: 1rem;
+    font-size: 1.0625rem;
+    font-weight: 700;
     color: var(--charcoal);
     transition: border-color 120ms ease, background 120ms ease;
   }
@@ -122,10 +123,11 @@
   .label {
     display: block;
     font-family: "JetBrains Mono", "Courier New", monospace;
-    font-size: 0.6875rem;
-    letter-spacing: 0.12em;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--muted);
+    color: var(--charcoal);
     margin-bottom: 0.5rem;
   }
 
@@ -151,8 +153,9 @@
   /* Eyebrow label */
   .eyebrow {
     font-family: "JetBrains Mono", "Courier New", monospace;
-    font-size: 0.6875rem;
-    letter-spacing: 0.18em;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--oxblood);
   }

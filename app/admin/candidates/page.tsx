@@ -28,7 +28,7 @@ export default function AdminCandidatesPage() {
           <div className="eyebrow mb-1">Roster</div>
           <h1 className="font-serif text-[32px] leading-tight">Candidates</h1>
         </div>
-        <div className="mono text-[11px] uppercase tracking-[0.18em] text-muted">
+        <div className="mono text-[13px] uppercase tracking-[0.18em] text-muted">
           {visible.length} of {candidates.length}
         </div>
       </header>
@@ -55,7 +55,7 @@ export default function AdminCandidatesPage() {
           <thead>
             <tr className="border-b border-warmGray bg-cream-deep/50">
               {["Name", "Headline", "Cohort", "Skills", "Status", "Featured"].map((h) => (
-                <th key={h} className="mono px-4 py-3 text-[10px] font-normal uppercase tracking-[0.18em] text-muted">
+                <th key={h} className="mono px-4 py-3 text-[12px] font-normal uppercase tracking-[0.18em] text-muted">
                   {h}
                 </th>
               ))}
@@ -71,10 +71,10 @@ export default function AdminCandidatesPage() {
                 </td>
                 <td className="px-4 py-3 text-charcoal">{c.headline}</td>
                 <td className="mono px-4 py-3 text-[12px] uppercase tracking-[0.1em] text-charcoal">{c.cohort}</td>
-                <td className="mono px-4 py-3 text-[11px] uppercase text-muted">
+                <td className="mono px-4 py-3 text-[13px] uppercase text-muted">
                   {c.skills.slice(0, 3).join(" · ")}
                 </td>
-                <td className="mono px-4 py-3 text-[11px] uppercase tracking-[0.14em]">
+                <td className="mono px-4 py-3 text-[13px] uppercase tracking-[0.14em]">
                   <span className={
                     c.status === "Approved" ? "text-[#2f7a3b]"
                       : c.status === "In Review" ? "text-oxblood"
@@ -82,7 +82,7 @@ export default function AdminCandidatesPage() {
                       : "text-charcoal/60 line-through"
                   }>{c.status}</span>
                 </td>
-                <td className="px-4 py-3">{c.featured ? <span className="mono text-[11px] text-oxblood">★</span> : ""}</td>
+                <td className="px-4 py-3">{c.featured ? <span className="mono text-[13px] text-oxblood">★</span> : ""}</td>
               </tr>
             ))}
           </tbody>

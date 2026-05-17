@@ -10,7 +10,7 @@ export default function AdminCompaniesPage() {
           <div className="eyebrow mb-1">Roster</div>
           <h1 className="font-serif text-[32px] leading-tight">Companies</h1>
         </div>
-        <div className="mono text-[11px] uppercase tracking-[0.18em] text-muted">
+        <div className="mono text-[13px] uppercase tracking-[0.18em] text-muted">
           {companies.length} accounts
         </div>
       </header>
@@ -20,7 +20,7 @@ export default function AdminCompaniesPage() {
           <thead>
             <tr className="border-b border-warmGray bg-cream-deep/50">
               {["Company", "Industry", "Size", "Contact", "Joined", "Intros", "Placements", "Status"].map((h) => (
-                <th key={h} className="mono px-4 py-3 text-[10px] font-normal uppercase tracking-[0.18em] text-muted">
+                <th key={h} className="mono px-4 py-3 text-[12px] font-normal uppercase tracking-[0.18em] text-muted">
                   {h}
                 </th>
               ))}
@@ -31,7 +31,7 @@ export default function AdminCompaniesPage() {
               <tr key={c.id} className="border-b border-warmGray last:border-b-0 hover:bg-cream-deep/30">
                 <td className="px-4 py-3">
                   <div className="font-serif text-[15px]">{c.name}</div>
-                  <a className="mono text-[10px] uppercase tracking-[0.14em] text-muted" href={`https://${c.website}`}>
+                  <a className="mono text-[12px] uppercase tracking-[0.14em] text-muted" href={`https://${c.website}`}>
                     {c.website} ↗
                   </a>
                 </td>
@@ -39,12 +39,12 @@ export default function AdminCompaniesPage() {
                 <td className="mono px-4 py-3 text-[12px] uppercase text-charcoal">{c.size}</td>
                 <td className="px-4 py-3">
                   <div className="text-charcoal">{c.contactName}</div>
-                  <div className="mono text-[10px] uppercase tracking-[0.14em] text-muted">{c.contactRole}</div>
+                  <div className="mono text-[12px] uppercase tracking-[0.14em] text-muted">{c.contactRole}</div>
                 </td>
                 <td className="mono px-4 py-3 text-[12px] text-muted">{c.joinedISO}</td>
                 <td className="px-4 py-3 text-charcoal">{c.introRequests}</td>
                 <td className="px-4 py-3 text-charcoal">{c.placements}</td>
-                <td className="mono px-4 py-3 text-[11px] uppercase tracking-[0.14em]">
+                <td className="mono px-4 py-3 text-[13px] uppercase tracking-[0.14em]">
                   <span className={c.status === "Approved" ? "text-[#2f7a3b]" : "text-oxblood"}>{c.status}</span>
                 </td>
               </tr>

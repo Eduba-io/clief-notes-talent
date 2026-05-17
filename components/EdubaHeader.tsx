@@ -9,7 +9,7 @@ export default function EdubaHeader({ rightSlot = "signin" }: Props) {
   return (
     <header className="border-b border-warmGray bg-cream">
       <div className="container-page flex items-center justify-between py-5">
-        <Link href="/" className="mono text-[11px] uppercase tracking-[0.22em] text-charcoal">
+        <Link href="/" className="mono text-[13px] uppercase tracking-[0.22em] text-charcoal">
           Eduba
           <span className="mx-2 text-warmGrayDark">/</span>
           <span className="text-muted">Talent</span>
@@ -18,12 +18,12 @@ export default function EdubaHeader({ rightSlot = "signin" }: Props) {
           Clief Notes Talent
         </Link>
         {rightSlot === "signin" && (
-          <Link href="/signin" className="mono text-[11px] uppercase tracking-[0.18em] text-muted hover:text-oxblood">
+          <Link href="/signin" className="mono text-[13px] uppercase tracking-[0.18em] text-muted hover:text-oxblood">
             Sign in →
           </Link>
         )}
         {rightSlot === "dashboard" && (
-          <Link href="/candidate/dashboard" className="mono text-[11px] uppercase tracking-[0.18em] text-muted hover:text-oxblood">
+          <Link href="/candidate/dashboard" className="mono text-[13px] uppercase tracking-[0.18em] text-muted hover:text-oxblood">
             Dashboard →
           </Link>
         )}

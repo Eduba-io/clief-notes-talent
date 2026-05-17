@@ -30,12 +30,12 @@ export default function Step5() {
               {Array.from({ length: 4 }).map((_, i) => (
                 <div key={i} className="card flex items-center justify-between p-4">
                   <div className="min-w-0">
-                    <div className="mono text-[11px] uppercase tracking-[0.14em] text-muted">
+                    <div className="mono text-[13px] uppercase tracking-[0.14em] text-muted">
                       Slot {i + 1}
                     </div>
                     <div className="truncate font-serif text-[14px] text-muted">Empty</div>
                   </div>
-                  <button type="button" className="btn btn-ghost px-3 py-1 text-[10px]">Add</button>
+                  <button type="button" className="btn btn-ghost px-3 py-1 text-[12px]">Add</button>
                 </div>
               ))}
             </div>
@@ -49,7 +49,7 @@ export default function Step5() {
           <label className="block">
             <span className="label">References (name + email, comma separated)</span>
             <textarea className="textarea min-h-[100px]" placeholder="Jane Smith jane@company.com, ..." />
-            <span className="mono mt-1 block text-[10px] uppercase tracking-[0.14em] text-muted">
+            <span className="mono mt-1 block text-[12px] uppercase tracking-[0.14em] text-muted">
               Eduba contacts references before your profile goes live.
             </span>
           </label>

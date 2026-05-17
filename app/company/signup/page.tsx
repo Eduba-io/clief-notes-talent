@@ -71,7 +71,7 @@ export default function CompanySignupPage() {
 function Detail({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-baseline justify-between border-b border-warmGray py-2.5">
-      <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">{label}</span>
+      <span className="mono text-[13px] uppercase tracking-[0.14em] text-muted">{label}</span>
       <span className="font-serif text-[15px] text-charcoal">{value}</span>
     </div>
   );

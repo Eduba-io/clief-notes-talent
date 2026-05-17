@@ -47,7 +47,7 @@ export default function PostJobPage() {
                 ["contract", "Contract"],
                 ["fractional", "Fractional"],
               ].map(([val, txt]) => (
-                <label key={val} className="mono flex cursor-pointer items-center gap-2 border border-warmGray px-3 py-1.5 text-[11px] uppercase tracking-[0.1em]">
+                <label key={val} className="mono flex cursor-pointer items-center gap-2 border border-warmGray px-3 py-1.5 text-[13px] uppercase tracking-[0.1em]">
                   <input type="radio" name="type" checked={type === val} onChange={() => setType(val)} className="accent-oxblood" />
                   {txt}
                 </label>
@@ -110,7 +110,7 @@ function ChipGroup({
               key={opt}
               type="button"
               onClick={() => onToggle(opt)}
-              className={`mono border px-3 py-1.5 text-[11px] uppercase tracking-[0.08em] transition-colors ${
+              className={`mono border px-3 py-1.5 text-[13px] uppercase tracking-[0.08em] transition-colors ${
                 active
                   ? tone === "muted"
                     ? "border-charcoal bg-charcoal text-cream"

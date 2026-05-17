@@ -29,7 +29,7 @@ export default function CandidateCard({ candidate, href, variant = "default" }: 
           <div className="font-serif text-[18px] leading-snug">
             {candidate.firstName} {candidate.lastInitial}
           </div>
-          <div className="mono text-[11px] uppercase tracking-[0.12em] text-muted">
+          <div className="mono text-[13px] uppercase tracking-[0.12em] text-muted">
             {candidate.city}
           </div>
         </div>
@@ -53,13 +53,13 @@ export default function CandidateCard({ candidate, href, variant = "default" }: 
       <div className="mt-auto flex items-end justify-between border-t border-warmGray pt-4">
         <div>
           <StatusBadge availability={candidate.availability} />
-          <div className="mono mt-1.5 text-[11px] uppercase tracking-[0.08em] text-muted">
+          <div className="mono mt-1.5 text-[13px] uppercase tracking-[0.08em] text-muted">
             {formatSalary(candidate.salaryMin, candidate.salaryMax)}
           </div>
         </div>
         <Link
           href={profileHref}
-          className="mono text-[11px] uppercase tracking-[0.16em] text-oxblood hover:text-oxbloodDark"
+          className="mono text-[13px] uppercase tracking-[0.16em] text-oxblood hover:text-oxbloodDark"
         >
           View Profile →
         </Link>

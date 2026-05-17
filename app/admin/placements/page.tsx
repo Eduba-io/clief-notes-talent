@@ -24,7 +24,7 @@ export default function AdminPlacementsPage() {
           <div className="eyebrow mb-1">Revenue</div>
           <h1 className="font-serif text-[32px] leading-tight">Placements</h1>
         </div>
-        <div className="mono text-[11px] uppercase tracking-[0.18em] text-muted">
+        <div className="mono text-[13px] uppercase tracking-[0.18em] text-muted">
           {placements.length} placements · ${placements.reduce((a, p) => a + p.feeAmount, 0).toLocaleString()} total billings
         </div>
       </header>
@@ -34,7 +34,7 @@ export default function AdminPlacementsPage() {
           <thead>
             <tr className="border-b border-warmGray bg-cream-deep/50">
               {["Candidate", "Company", "Role", "Fee", "Status", "Started"].map((h) => (
-                <th key={h} className="mono px-4 py-3 text-[10px] font-normal uppercase tracking-[0.18em] text-muted">
+                <th key={h} className="mono px-4 py-3 text-[12px] font-normal uppercase tracking-[0.18em] text-muted">
                   {h}
                 </th>
               ))}
@@ -51,7 +51,7 @@ export default function AdminPlacementsPage() {
                 <td className="px-4 py-3 text-charcoal">{p.companyName}</td>
                 <td className="px-4 py-3 text-charcoal">{p.role}</td>
                 <td className="px-4 py-3 text-charcoal">${p.feeAmount.toLocaleString()}</td>
-                <td className="mono px-4 py-3 text-[11px] uppercase tracking-[0.14em]"
+                <td className="mono px-4 py-3 text-[13px] uppercase tracking-[0.14em]"
                     style={{ color: statusColor[p.status] }}>
                   {p.status}
                 </td>
@@ -93,7 +93,7 @@ export default function AdminPlacementsPage() {
               <ol className="space-y-2 border-l-2 border-warmGray pl-4">
                 {open.timeline.map((e, i) => (
                   <li key={i} className="text-[14px]">
-                    <span className="mono mr-3 text-[11px] uppercase tracking-[0.14em] text-muted">{e.dateISO}</span>
+                    <span className="mono mr-3 text-[13px] uppercase tracking-[0.14em] text-muted">{e.dateISO}</span>
                     {e.event}
                   </li>
                 ))}
@@ -148,7 +148,7 @@ export default function AdminPlacementsPage() {
 function Mini({ label, value, color }: { label: string; value: string; color?: string }) {
   return (
     <div className="card p-3">
-      <div className="mono text-[10px] uppercase tracking-[0.18em] text-muted">{label}</div>
+      <div className="mono text-[12px] uppercase tracking-[0.18em] text-muted">{label}</div>
       <div className="font-serif text-[18px]" style={color ? { color } : undefined}>{value}</div>
     </div>
   );
@@ -157,7 +157,7 @@ function Mini({ label, value, color }: { label: string; value: string; color?: s
 function Row({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-baseline justify-between border-b border-warmGray py-1.5 last:border-b-0">
-      <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">{label}</span>
+      <span className="mono text-[13px] uppercase tracking-[0.14em] text-muted">{label}</span>
       <span className="text-charcoal">{value}</span>
     </div>
   );

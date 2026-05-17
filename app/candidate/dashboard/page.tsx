@@ -24,7 +24,7 @@ function Inner() {
         title="Candidate"
         items={items}
         footer={
-          <div className="mono text-[11px] uppercase tracking-[0.14em]">
+          <div className="mono text-[13px] uppercase tracking-[0.14em]">
             Signed in as <br />
             <span className="text-charcoal">sarah.k@independent</span>
           </div>
@@ -38,7 +38,7 @@ function Inner() {
           }`}
         >
           <div>
-            <div className="mono text-[10px] uppercase tracking-[0.22em] text-muted">
+            <div className="mono text-[12px] uppercase tracking-[0.22em] text-muted">
               Profile status
             </div>
             <div className="font-serif text-[18px]">
@@ -47,7 +47,7 @@ function Inner() {
                 : "Your profile is live. You're discoverable to verified companies."}
             </div>
           </div>
-          <a href="#" className="mono text-[11px] uppercase tracking-[0.18em] text-oxblood hover:text-oxbloodDark">
+          <a href="#" className="mono text-[13px] uppercase tracking-[0.18em] text-oxblood hover:text-oxbloodDark">
             Edit profile →
           </a>
         </div>
@@ -63,7 +63,7 @@ function Inner() {
         <section>
           <header className="mb-4 flex items-end justify-between border-b border-warmGray pb-2">
             <h2 className="font-serif text-[22px]">Active intro requests</h2>
-            <span className="mono text-[11px] uppercase tracking-[0.14em] text-muted">3 pending</span>
+            <span className="mono text-[13px] uppercase tracking-[0.14em] text-muted">3 pending</span>
           </header>
           <ul className="space-y-3">
             {INTRO_REQS.map((r) => (
@@ -76,10 +76,10 @@ function Inner() {
                   </div>
                 </div>
                 <div className="text-right">
-                  <div className="mono text-[10px] uppercase tracking-[0.18em] text-muted">{r.received}</div>
+                  <div className="mono text-[12px] uppercase tracking-[0.18em] text-muted">{r.received}</div>
                   <div className="mt-3 flex gap-2">
-                    <button className="btn btn-ghost px-3 py-1 text-[10px]">Decline</button>
-                    <button className="btn btn-primary px-3 py-1 text-[10px]">Accept</button>
+                    <button className="btn btn-ghost px-3 py-1 text-[12px]">Decline</button>
+                    <button className="btn btn-primary px-3 py-1 text-[12px]">Accept</button>
                   </div>
                 </div>
               </li>
@@ -111,7 +111,7 @@ function Inner() {
             </h2>
             <div className="card flex h-full items-center justify-center p-8 text-center">
               <div>
-                <div className="mono text-[11px] uppercase tracking-[0.18em] text-muted">Nothing yet</div>
+                <div className="mono text-[13px] uppercase tracking-[0.18em] text-muted">Nothing yet</div>
                 <p className="mt-2 font-serif text-[15px] text-charcoal">
                   Your first placement will appear here. The intro process usually takes 2–4 weeks
                   end-to-end.
@@ -153,7 +153,7 @@ function Stat({ n, label }: { n: string; label: string }) {
   return (
     <div className="card p-5">
       <div className="font-serif text-[44px] leading-none text-charcoal">{n}</div>
-      <div className="mono mt-2 text-[10px] uppercase tracking-[0.18em] text-muted">{label}</div>
+      <div className="mono mt-2 text-[12px] uppercase tracking-[0.18em] text-muted">{label}</div>
     </div>
   );
 }
@@ -162,7 +162,7 @@ export default function CandidateDashboardPage() {
   return (
     <>
       <EdubaHeader rightSlot="signin" />
-      <Suspense fallback={<div className="container-page py-10 mono text-[11px] uppercase tracking-[0.18em] text-muted">Loading…</div>}>
+      <Suspense fallback={<div className="container-page py-10 mono text-[13px] uppercase tracking-[0.18em] text-muted">Loading…</div>}>
         <Inner />
       </Suspense>
     </>

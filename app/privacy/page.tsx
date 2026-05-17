@@ -14,7 +14,7 @@ export default function PrivacyPage() {
           we never sell candidate data and never let an introduced company contact a candidate
           outside the platform.
         </p>
-        <p className="mono mt-10 text-[11px] uppercase tracking-[0.18em] text-muted">
+        <p className="mono mt-10 text-[13px] uppercase tracking-[0.18em] text-muted">
           Placeholder · effective date: pending
         </p>
       </main>

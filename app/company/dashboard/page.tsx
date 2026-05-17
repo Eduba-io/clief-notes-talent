@@ -45,7 +45,7 @@ function Inner() {
       <Sidebar
         title="Company · Hexley & Pratt"
         items={items}
-        footer={<div className="mono text-[11px] uppercase tracking-[0.14em]">Plan · <span className="text-charcoal">Standard</span></div>}
+        footer={<div className="mono text-[13px] uppercase tracking-[0.14em]">Plan · <span className="text-charcoal">Standard</span></div>}
       />
       <div className="flex-1 space-y-10">
         <header className="flex items-end justify-between border-b border-warmGray pb-3">
@@ -65,18 +65,18 @@ function Inner() {
         <section id="intros">
           <header className="mb-4 flex items-end justify-between border-b border-warmGray pb-2">
             <h2 className="font-serif text-[22px]">Your intro requests</h2>
-            <Link href="/company/browse" className="mono text-[11px] uppercase tracking-[0.18em] text-muted hover:text-oxblood">Find more candidates →</Link>
+            <Link href="/company/browse" className="mono text-[13px] uppercase tracking-[0.18em] text-muted hover:text-oxblood">Find more candidates →</Link>
           </header>
           <ul className="space-y-3">
             {myIntros.map((r) => (
               <li key={r.id} className="card flex items-center justify-between p-5">
                 <div>
                   <div className="font-serif text-[17px]">{r.candidateName}</div>
-                  <div className="mono text-[11px] uppercase tracking-[0.14em] text-muted">
+                  <div className="mono text-[13px] uppercase tracking-[0.14em] text-muted">
                     {r.createdISO} · Status: {r.status}
                   </div>
                 </div>
-                <Link href={`/company/candidate/${r.candidateId}`} className="mono text-[11px] uppercase tracking-[0.18em] text-oxblood">
+                <Link href={`/company/candidate/${r.candidateId}`} className="mono text-[13px] uppercase tracking-[0.18em] text-oxblood">
                   View candidate →
                 </Link>
               </li>
@@ -92,7 +92,7 @@ function Inner() {
             <div className="flex items-center justify-between">
               <div>
                 <div className="font-serif text-[17px]">{myPlacement.candidateName} · {myPlacement.role}</div>
-                <div className="mono text-[11px] uppercase tracking-[0.14em] text-muted">
+                <div className="mono text-[13px] uppercase tracking-[0.14em] text-muted">
                   Status: {myPlacement.status} · Started {myPlacement.startedISO}
                 </div>
               </div>
@@ -111,7 +111,7 @@ function Stat({ n, label }: { n: string; label: string }) {
   return (
     <div className="card p-5">
       <div className="font-serif text-[44px] leading-none text-charcoal">{n}</div>
-      <div className="mono mt-2 text-[10px] uppercase tracking-[0.18em] text-muted">{label}</div>
+      <div className="mono mt-2 text-[12px] uppercase tracking-[0.18em] text-muted">{label}</div>
     </div>
   );
 }
@@ -120,7 +120,7 @@ export default function CompanyDashboardPage() {
   return (
     <>
       <EdubaHeader rightSlot="signin" />
-      <Suspense fallback={<div className="container-page py-10 mono text-[11px] uppercase tracking-[0.18em] text-muted">Loading…</div>}>
+      <Suspense fallback={<div className="container-page py-10 mono text-[13px] uppercase tracking-[0.18em] text-muted">Loading…</div>}>
         <Inner />
       </Suspense>
     </>

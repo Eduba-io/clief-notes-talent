@@ -16,7 +16,7 @@ export default function Sidebar({ title, items, footer }: Props) {
   const pathname = usePathname();
   return (
     <aside className="w-56 shrink-0 border-r border-warmGray pr-6 pt-2">
-      <div className="mono mb-5 text-[11px] uppercase tracking-[0.22em] text-muted">{title}</div>
+      <div className="mono mb-5 text-[13px] uppercase tracking-[0.22em] text-muted">{title}</div>
       <nav className="space-y-0.5">
         {items.map((it) => {
           const active = pathname === it.href || (it.href !== "/" && pathname.startsWith(it.href));

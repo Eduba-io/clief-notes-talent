@@ -13,7 +13,7 @@ const config: Config = {
         warmGray: "#D9D1BE",
         warmGrayDark: "#7A725E",
         ink: "#1A1A1A",
-        muted: "#3F3B30",
+        muted: "#2A2A2A",
       },
       fontFamily: {
         serif: ['Georgia', '"Times New Roman"', "serif"],

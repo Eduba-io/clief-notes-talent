@@ -46,7 +46,7 @@ export default function AdminQueuePage() {
           <div className="eyebrow mb-1">Operations</div>
           <h1 className="font-serif text-[32px] leading-tight">Approval queue</h1>
         </div>
-        <div className="mono text-[11px] uppercase tracking-[0.18em] text-muted">
+        <div className="mono text-[13px] uppercase tracking-[0.18em] text-muted">
           {counts.candidates + counts.companies + counts.intros} items pending
         </div>
       </header>
@@ -59,7 +59,7 @@ export default function AdminQueuePage() {
             <button
               key={t}
               onClick={() => setTab(t)}
-              className={`mono -mb-px border-b-2 px-4 py-2 text-[11px] uppercase tracking-[0.18em] ${
+              className={`mono -mb-px border-b-2 px-4 py-2 text-[13px] uppercase tracking-[0.18em] ${
                 active ? "border-oxblood text-oxblood" : "border-transparent text-muted hover:text-charcoal"
               }`}
             >
@@ -130,7 +130,7 @@ function Table({
   if (rows.length === 0) {
     return (
       <div className="card p-10 text-center">
-        <div className="mono text-[11px] uppercase tracking-[0.18em] text-muted">Queue empty</div>
+        <div className="mono text-[13px] uppercase tracking-[0.18em] text-muted">Queue empty</div>
         <p className="mt-2 font-serif text-[18px]">{emptyText}</p>
       </div>
     );
@@ -141,11 +141,11 @@ function Table({
         <thead>
           <tr className="border-b border-warmGray bg-cream-deep/50">
             {headers.map((h) => (
-              <th key={h} className="mono px-4 py-3 text-[10px] font-normal uppercase tracking-[0.18em] text-muted">
+              <th key={h} className="mono px-4 py-3 text-[12px] font-normal uppercase tracking-[0.18em] text-muted">
                 {h}
               </th>
             ))}
-            <th className="mono px-4 py-3 text-right text-[10px] font-normal uppercase tracking-[0.18em] text-muted">
+            <th className="mono px-4 py-3 text-right text-[12px] font-normal uppercase tracking-[0.18em] text-muted">
               Action
             </th>
           </tr>
@@ -166,8 +166,8 @@ function Table({
               ))}
               <td className="px-4 py-3 text-right">
                 <div className="inline-flex gap-2">
-                  <button onClick={() => onReject(r.id)} className="btn btn-ghost px-3 py-1 text-[10px]">Reject</button>
-                  <button onClick={() => onApprove(r.id)} className="btn btn-primary px-3 py-1 text-[10px]">Approve</button>
+                  <button onClick={() => onReject(r.id)} className="btn btn-ghost px-3 py-1 text-[12px]">Reject</button>
+                  <button onClick={() => onApprove(r.id)} className="btn btn-primary px-3 py-1 text-[12px]">Approve</button>
                 </div>
               </td>
             </tr>

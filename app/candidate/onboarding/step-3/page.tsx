@@ -60,7 +60,7 @@ function ChipGroup({
               key={opt}
               type="button"
               onClick={() => onToggle(opt)}
-              className={`mono border px-3 py-1.5 text-[11px] uppercase tracking-[0.08em] transition-colors ${
+              className={`mono border px-3 py-1.5 text-[13px] uppercase tracking-[0.08em] transition-colors ${
                 active
                   ? "border-oxblood bg-oxblood text-cream"
                   : "border-warmGray text-charcoal hover:border-charcoal"

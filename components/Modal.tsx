@@ -47,7 +47,7 @@ export default function Modal({ open, onClose, title, children, footer, width = 
             type="button"
             onClick={onClose}
             aria-label="Close"
-            className="mono text-[11px] uppercase tracking-[0.18em] text-muted hover:text-oxblood"
+            className="mono text-[13px] uppercase tracking-[0.18em] text-muted hover:text-oxblood"
           >
             Close ×
           </button>

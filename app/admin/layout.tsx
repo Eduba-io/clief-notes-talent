@@ -18,7 +18,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           title="Eduba · Admin"
           items={items}
           footer={
-            <div className="mono text-[11px] uppercase tracking-[0.14em]">
+            <div className="mono text-[13px] uppercase tracking-[0.14em]">
               Signed in as <br />
               <span className="text-charcoal">matt@eduba.io</span>
             </div>

@@ -13,7 +13,7 @@ export default function SkillTag({ children, tone = "default" }: Props) {
       : "border-charcoal text-charcoal";
   return (
     <span
-      className={`mono inline-flex items-center border ${toneClass} bg-transparent px-2 py-[3px] text-[11px] uppercase tracking-[0.08em] leading-none`}
+      className={`mono inline-flex items-center border ${toneClass} bg-transparent px-2 py-[3px] text-[13px] uppercase tracking-[0.08em] leading-none`}
     >
       {children}
     </span>

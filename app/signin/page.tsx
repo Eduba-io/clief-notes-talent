@@ -36,7 +36,7 @@ export default function SigninPage() {
               create a company account
             </a>.
           </p>
-          <p className="mono mt-6 text-[11px] uppercase tracking-[0.18em] text-muted">
+          <p className="mono mt-6 text-[13px] uppercase tracking-[0.18em] text-muted">
             Demo hint · use any email; we route by keyword (admin / company / candidate)
           </p>
         </div>
@@ -58,7 +58,7 @@ export default function SigninPage() {
             <input id="pw" type="password" className="input" placeholder="••••••••" required />
           </div>
           <button type="submit" className="btn btn-primary w-full">Sign in →</button>
-          <div className="mono mt-4 text-center text-[11px] uppercase tracking-[0.16em] text-muted">
+          <div className="mono mt-4 text-center text-[13px] uppercase tracking-[0.16em] text-muted">
             <a href="#" className="hover:text-oxblood">Forgot password?</a>
           </div>
         </form>

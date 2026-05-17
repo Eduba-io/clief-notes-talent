@@ -8,7 +8,7 @@ type Props = {
 export default function Stepper({ current, total, labels }: Props) {
   return (
     <div className="mb-10">
-      <div className="mono mb-3 flex items-center justify-between text-[11px] uppercase tracking-[0.18em] text-muted">
+      <div className="mono mb-3 flex items-center justify-between text-[13px] uppercase tracking-[0.18em] text-muted">
         <span>Step {current} of {total}</span>
         {labels?.[current - 1] && <span className="text-charcoal">{labels[current - 1]}</span>}
       </div>

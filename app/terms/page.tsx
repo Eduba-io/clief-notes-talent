@@ -15,7 +15,7 @@ export default function TermsPage() {
           candidate outside the platform for a period of twelve (12) months from the date of
           introduction.
         </p>
-        <p className="mono mt-10 text-[11px] uppercase tracking-[0.18em] text-muted">
+        <p className="mono mt-10 text-[13px] uppercase tracking-[0.18em] text-muted">
           Placeholder · effective date: pending
         </p>
       </main>

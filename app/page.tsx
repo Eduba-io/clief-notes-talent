@@ -24,7 +24,7 @@ export default function HomePage() {
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <Link href="/company/signup" className="btn btn-primary">I&rsquo;m hiring →</Link>
               <Link href="/candidate/signup" className="btn">I&rsquo;m a candidate</Link>
-              <Link href="/company/browse" className="mono ml-2 text-[11px] uppercase tracking-[0.18em] text-muted hover:text-oxblood">
+              <Link href="/company/browse" className="mono ml-2 text-[13px] uppercase tracking-[0.18em] text-muted hover:text-oxblood">
                 or browse the directory →
               </Link>
             </div>
@@ -40,7 +40,7 @@ export default function HomePage() {
                 on this year — and how Eduba places them.
               </p>
               <div className="rule" />
-              <dl className="mono space-y-2 text-[11px] uppercase tracking-[0.12em] text-muted">
+              <dl className="mono space-y-2 text-[13px] uppercase tracking-[0.12em] text-muted">
                 <div className="flex justify-between"><dt>Active candidates</dt><dd className="text-charcoal">12</dd></div>
                 <div className="flex justify-between"><dt>Hiring companies</dt><dd className="text-charcoal">6</dd></div>
                 <div className="flex justify-between"><dt>Placements YTD</dt><dd className="text-charcoal">5</dd></div>
@@ -94,7 +94,7 @@ export default function HomePage() {
               When something goes wrong, there is a person — usually Matt or Jake — to call.
             </p>
             <div className="rule-thick mt-10" />
-            <p className="mono mt-4 text-[11px] uppercase tracking-[0.18em] text-muted">
+            <p className="mono mt-4 text-[13px] uppercase tracking-[0.18em] text-muted">
               No resume scraping. No paid placement. No spam. No AI-generated outreach.
             </p>
           </div>
@@ -114,7 +114,7 @@ export default function HomePage() {
                 key={i}
                 className="flex h-16 items-center justify-center border border-dashed border-warmGray bg-cream-deep/40"
               >
-                <span className="mono text-[10px] uppercase tracking-[0.18em] text-warmGrayDark">
+                <span className="mono text-[12px] uppercase tracking-[0.18em] text-warmGrayDark">
                   Logo
                 </span>
               </div>
@@ -131,7 +131,7 @@ export default function HomePage() {
 function Column({ kicker, title, body }: { kicker: string; title: string; body: string }) {
   return (
     <div className="border-t border-charcoal pt-5">
-      <div className="mono mb-3 text-[10px] uppercase tracking-[0.22em] text-oxblood">{kicker}</div>
+      <div className="mono mb-3 text-[12px] uppercase tracking-[0.22em] text-oxblood">{kicker}</div>
       <h3 className="font-serif text-[22px] leading-snug">{title}</h3>
       <p className="mt-3 text-[15px] leading-relaxed text-charcoal">{body}</p>
     </div>

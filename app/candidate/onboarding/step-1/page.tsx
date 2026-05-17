@@ -28,8 +28,8 @@ export default function Step1() {
           <Field label="Current employer (or 'Independent')"><input className="input" /></Field>
           <Field label="Profile photo">
             <div className="flex h-[42px] items-center justify-between border border-warmGray bg-[#faf7ef] px-3 text-[13px] text-muted">
-              <span className="mono text-[11px] uppercase tracking-[0.14em]">No file selected</span>
-              <button type="button" className="btn btn-ghost px-3 py-1 text-[10px]">Upload</button>
+              <span className="mono text-[13px] uppercase tracking-[0.14em]">No file selected</span>
+              <button type="button" className="btn btn-ghost px-3 py-1 text-[12px]">Upload</button>
             </div>
           </Field>
 
