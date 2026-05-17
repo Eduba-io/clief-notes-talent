@@ -87,11 +87,10 @@ export default function HomePage() {
           </div>
           <div className="md:col-span-8">
             <p className="text-[18px] leading-relaxed text-charcoal">
-              Most AI talent platforms are job boards with a coat of paint. We are not a job board.
-              Every candidate has been through the Clief Notes vetting funnel — Skool Premium or
-              VIP, a portfolio that we&rsquo;ve actually read, references that we&rsquo;ve actually
-              called. Every company has signed terms that protect both sides of the introduction.
-              When something goes wrong, there is a person — usually Matt or Jake — to call.
+              Most AI talent platforms are job boards. We run a small list of people we know.
+              Every candidate on Clief Notes is a Skool Premium or VIP member. We read their
+              portfolio. We call their references. Every company signs terms that protect both
+              sides of the introduction. When something goes wrong, you call Matt or Jake.
             </p>
             <div className="rule-thick mt-10" />
             <p className="mono mt-4 text-[13px] uppercase tracking-[0.18em] text-muted">
