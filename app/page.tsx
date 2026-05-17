@@ -95,7 +95,7 @@ export default function HomePage() {
             </p>
             <div className="rule-thick mt-10" />
             <p className="mono mt-4 text-[11px] uppercase tracking-[0.18em] text-muted">
-              No résumé scraping. No paid placement. No spam. No AI-generated outreach.
+              No resume scraping. No paid placement. No spam. No AI-generated outreach.
             </p>
           </div>
         </div>
