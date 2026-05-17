@@ -54,7 +54,7 @@ export default function HomePage() {
       {/* How it works */}
       <section className="border-b border-warmGray">
         <div className="container-page py-20">
-          <div className="eyebrow mb-3">§ 1 · How it works</div>
+          <div className="eyebrow mb-3">How it works</div>
           <h2 className="font-serif text-[36px] leading-tight md:text-[44px]">
             Curation over scale.
           </h2>
@@ -82,7 +82,7 @@ export default function HomePage() {
       <section className="border-b border-warmGray">
         <div className="container-page grid grid-cols-1 gap-12 py-20 md:grid-cols-12">
           <div className="md:col-span-4">
-            <div className="eyebrow mb-3">§ 2 · The difference</div>
+            <div className="eyebrow mb-3">The difference</div>
             <h2 className="font-serif text-[36px] leading-tight">What makes Clief Notes different.</h2>
           </div>
           <div className="md:col-span-8">
@@ -103,7 +103,7 @@ export default function HomePage() {
       {/* Logo wall placeholder */}
       <section className="border-b border-warmGray">
         <div className="container-page py-16 text-center">
-          <div className="eyebrow mb-6">§ 3 · Companies we&rsquo;ve placed with</div>
+          <div className="eyebrow mb-6">Companies we&rsquo;ve placed with</div>
           <p className="mono text-[12px] uppercase tracking-[0.18em] text-muted">
             Coming soon — placements published with permission.
           </p>
